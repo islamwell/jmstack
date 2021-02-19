@@ -1,0 +1,23 @@
+.em-tab-pane {
+        display:none;
+} 
+.em-tab-pane.em-active {
+        display:block;
+} 
+.em-tab-header li {
+        cursor:pointer;
+} 
+ul.em-tab-header {
+        margin:10px 0 0 0;
+        padding:0 0 5px 0;
+}
+ul.em-tab-header li {
+        display:inline;
+        margin-right:2px;
+        border:1px solid #aaa;
+        background:#eee;
+        padding:5px;
+}
+ul.em-tab-header li.em-active {
+        background:white;
+}
